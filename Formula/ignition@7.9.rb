@@ -14,7 +14,7 @@ class IgnitionAT79 < Formula
 
   bottle :unneeded
 
-  depends_on "openjdk@8"
+  depends_on "zulu8"
 
   def install
     # Relocate data
