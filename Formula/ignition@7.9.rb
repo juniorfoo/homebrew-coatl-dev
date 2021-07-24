@@ -14,7 +14,8 @@ class IgnitionAT79 < Formula
 
   bottle :unneeded
 
-  depends_on :cask "zulu8"
+  # This does not work for ARM - run with –ignore-dependencies after you have installed zulu8
+  # depends_on cask: "zulu8"
 
   def install
     # Relocate data
