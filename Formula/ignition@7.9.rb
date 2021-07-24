@@ -14,7 +14,7 @@ class IgnitionAT79 < Formula
 
   bottle :unneeded
 
-  depends_on "zulu8"
+  depends_on cask: "zulu8"
 
   def install
     # Relocate data
