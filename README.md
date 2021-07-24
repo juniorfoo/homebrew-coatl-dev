@@ -16,3 +16,7 @@ Or `brew tap coatl-dev/coatl-dev` and then `brew install <formula>`.
 
 ## Documentation
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+
+
+
+`brew install --ignore-dependencies --formula juniorfoo/coatl-dev/ignition@7.9`
